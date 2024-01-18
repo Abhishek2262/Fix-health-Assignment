@@ -1,0 +1,25 @@
+.slider-cnt {
+  height: 60vh;
+}
+.slide-1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.slid-btn-cnt {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+.back-btn,
+.nxt-btn {
+  background: none;
+  color: whitesmoke;
+  width: 6rem;
+  padding: 0.5%;
+  background-color: #0b0b0b;
+  border-bottom: 1.5px solid #69d2f4;
+  border-left: 1.5px solid #69d2f4;
+  border-right: 1.5px solid #69d2f4;
+  box-shadow: 1px 3px 8.5px 0px rgba(255, 255, 255, 0.25) inset;
+}
