@@ -10,7 +10,7 @@ const Form = ({city}) => {
     name: "",
     phn: "",
     age: "",
-    city: city ? city:" ",
+    city: city || "",
     company: "",
     physioexp: false,
     physiosum: "",
