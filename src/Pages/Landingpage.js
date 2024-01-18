@@ -8,7 +8,12 @@ import Carousel from "../Component/Carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
 import Show from "../Component/Show";
 import Carouselreview from "../Component/Carouselreview";
+import { useParams } from "react-router";
+
 const Landingpage = () => {
+  const { city } = useParams();
+
+
   return (
     <>
       <Navbar />
@@ -22,7 +27,7 @@ const Landingpage = () => {
             <p>Primary Care and Specialists Where You Need Them</p>
           </div>
           <div className="right-cnt">
-            <Form />
+            <Form  city={city}/>
           </div>
         </div>
         <div className="landing-body">

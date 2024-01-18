@@ -9,6 +9,7 @@ function App() {
    <BrowserRouter>
       <Routes>
         <Route exact path='/' element ={<Landingpage/>}/>
+        <Route exact path='/:city' element ={<Landingpage/>}/>
       </Routes>
    </BrowserRouter>
    

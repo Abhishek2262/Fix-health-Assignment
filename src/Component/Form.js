@@ -3,14 +3,14 @@ import {doctors} from "../Data/Doctordata";
 
 import "../Style/Form.css";
 
-const Form = () => {
+const Form = ({city}) => {
   const [step, setStep] = useState(1);
   const [ageverify, setAgeverify] = useState(true);
   const [formData, setFormData] = useState({
     name: "",
     phn: "",
     age: "",
-    city: "",
+    city: city ? city:" ",
     company: "",
     physioexp: false,
     physiosum: "",
